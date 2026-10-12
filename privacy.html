@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rephraze — Privacy Policy</title>
+<meta name="description" content="What Rephraze collects, what it doesn't, and how the text you rewrite is handled.">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><span class="mark" aria-hidden="true"></span>Rephraze</a>
+  <nav><a href="./">Support</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
+</header>
+
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective October 12, 2026</p>
+
+  <p>Rephraze is an iMessage app that rewrites text you type in a tone and style you choose. This policy explains what the app handles, what leaves your phone, and what we keep. The short version: there is no account, we never read your conversations, and the only thing sent anywhere is the text you type into the Rephraze panel.</p>
+
+  <h2>What Rephraze never does</h2>
+  <ul>
+    <li>It never reads, stores, or transmits your iMessage conversations. Apple does not give iMessage apps access to the messages in a conversation, and Rephraze does not try to work around that.</li>
+    <li>It never asks for your name, email, phone number, contacts, or location.</li>
+    <li>It does not use advertising or analytics SDKs, and it does not sell or share data with data brokers.</li>
+  </ul>
+
+  <h2>What is sent to our server</h2>
+  <p>When you tap Re-write, the app sends the following to our server, which runs on Cloudflare:</p>
+  <ul>
+    <li><strong>The text you typed</strong> into the Rephraze panel, and the tone and style you picked.</li>
+    <li><strong>Your "Sound like me" samples</strong>, if you added any in the Rephraze app and have a Pro plan. These are texts you chose to paste in; they are stored only on your phone and sent along with each rewrite so the result matches your voice.</li>
+    <li><strong>An anonymous ID</strong> the app generates on first use. It is a random string, not tied to your Apple ID or any personal detail. It exists so the free daily allowance can be counted and so a subscription can be recognized across reinstalls.</li>
+    <li><strong>A signed subscription receipt</strong> from the App Store, if you subscribe, so the server can confirm your plan. This is Apple's standard signed transaction and does not contain your payment details.</li>
+  </ul>
+
+  <h2>How the rewrite is generated</h2>
+  <p>Our server forwards the text and your choices to Anthropic's Claude API to produce the rewrite, and returns the result to the app. Anthropic processes the text to generate the response and handles it under its own commercial API terms, which do not permit training on API inputs. We do not store the text you send or the rewrite you receive after the request completes.</p>
+
+  <h2>What we keep</h2>
+  <ul>
+    <li><strong>Usage counts</strong> — how many rewrites your anonymous ID has made in the current 24-hour window. These expire automatically.</li>
+    <li><strong>Plan status</strong> — whether an anonymous ID is on the Free, Plus, or Pro plan.</li>
+    <li><strong>Error logs</strong> — if a request fails, our server records the error so we can fix it. These logs do not include the text you typed.</li>
+  </ul>
+  <p>Everything else stays on your phone: your draft, your default style, which bubbles you use most, and your "Sound like me" samples. Deleting the app deletes them.</p>
+
+  <h2>Subscriptions</h2>
+  <p>Plus and Pro are auto-renewable subscriptions billed through Apple. Apple handles payment and your payment details never reach us. You can manage or cancel a subscription in your iPhone's Settings under your Apple ID → Subscriptions.</p>
+
+  <h2>Children</h2>
+  <p>Rephraze is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes in a way that matters, the effective date above will move and the app's App Store page will link to the current version.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests about your data: <a href="mailto:jeremy.redigergroup@gmail.com">jeremy.redigergroup@gmail.com</a>. If you include your Support ID (found at the bottom of the Rephraze app), we can find and delete the usage record tied to it.</p>
+</main>
+
+<footer>Rephraze · <a href="privacy.html">Privacy</a> · <a href="./">Support</a></footer>
+</body>
+</html>
